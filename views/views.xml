@@ -20,7 +20,7 @@
             <field name="view_mode">tree,form</field>
         </record>
     <!-- menus dels mòdul -->
-        <menuitem name="Tot" icon="" id="zoo_menu1" />
+        <menuitem name="Zoo" icon="" id="zoo_menu1" />
         <menuitem name="Zoo" parent="zoo_menu1" id="zoo_menu2" action="action_zoo_tree" />
         <menuitem name="Animal" parent="zoo_menu1" id="zoo_menu3" action="action_animal_tree" />
         <menuitem name="Especie" parent="zoo_menu1" id="zoo_menu4" action="action_especie_tree" />
@@ -45,7 +45,7 @@
             <field name="model">animal</field>
             <field name="type">tree</field>
             <field name="arch" type="xml">
-                <tree string="Tasca">
+                <tree string="Animal">
                     <field name="id"/>
                     <field name="continentOrigen"/>
                     <field name="paisOrigen"/>
@@ -62,7 +62,7 @@
             <field name="model">especie</field>
             <field name="type">tree</field>
             <field name="arch" type="xml">
-                <tree string="Tasca">
+                <tree string="Especie">
                     <field name="id"/>
                     <field name="perill"/>
                     <field name="nomVulgar"/>

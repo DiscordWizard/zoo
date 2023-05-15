@@ -1,5 +1,5 @@
 from odoo import models, fields
-class zoo(models.Model):
+class especie(models.Model):
     _name = 'especie'
     id = fields.Char('Id', required=True)
     perill = fields.Char('Perill')

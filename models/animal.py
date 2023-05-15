@@ -6,7 +6,7 @@ class animal(models.Model):
     paisOrigen = fields.Char('PaisOrigen')
     dataNaix = fields.Date('DataNaix')
     sexe = fields.Char('Sex')
-    idZoo = fields.Many2one('idZoo', string="Zoo")
-    idEspecie = fields.Many2one('idEspecie', string="Especie")
+    idZoo = fields.Many2one('zoo', string="Zoo")
+    idEspecie = fields.Many2one('especie', string="Especie")
 
     

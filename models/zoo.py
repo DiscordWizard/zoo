@@ -1,5 +1,9 @@
 from odoo import models, fields
-class todo_tasca(models.Model):
- _name = 'todo.tasca'
- titol = fields.Char('Títol', required=True)
- data_final = fields.Date('Data final')
+class zoo(models.Model):
+    _name = 'zoo'
+    id = fields.Char('Id', required=True)
+    grandaria = fields.Char('Grandaria')
+    nom = fields.Char('Nom')
+    ciutat = fields.Char('Ciutat')
+    pais = fields.Char('Pais')
+    
